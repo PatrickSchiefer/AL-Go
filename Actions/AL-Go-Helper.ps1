@@ -23,6 +23,7 @@ $notSecretProperties = @("Scopes","TenantId","BlobName","ContainerName","Storage
 
 $runAlPipelineOverrides = @(
     "PipelineInitialize"
+    "GetBestGenericImageName"
     "DockerPull"
     "NewBcContainer"
     "ImportTestToolkitToBcContainer"
